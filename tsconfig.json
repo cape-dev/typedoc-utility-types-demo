@@ -1,0 +1,11 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext"
+  },
+  "typedocOptions": {
+    "entryPoints": ["src"],
+    "out": "docs"
+  }
+}
